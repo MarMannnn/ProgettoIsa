@@ -1,0 +1,12 @@
+FROM maven:3.8.5-jdk-11
+
+WORKDIR home/isa
+
+# copio il file pom.xml nella WORKDIR
+# COPY <src> <dest>
+COPY pom.xml .
+
+# copio la cartella src nella WORKDIR
+# importante specificare src/ così crea la
+# cartella e non copia solamente il contenuto
+COPY src src/

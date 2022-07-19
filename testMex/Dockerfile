@@ -1,3 +1,4 @@
+#per eseguire container docker: docker container run -it marmann/progettoisa:2022 bash
 FROM maven:3.8.5-jdk-11
 
 WORKDIR home/isa

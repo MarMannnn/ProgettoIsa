@@ -5,6 +5,8 @@ I messaggi verranno visualizzati nelle apposite sezioni in maniera cifrata e si 
 
 **ATTENZIONE: codice di codifica ASCII! -> non sono accettate le lettere composte (es: à, ò, è, ù ..) -> per fare le lettere accentate: e'**
 
+NB: prima di eseguire l'applicazione è necessario creare un database come indicato (è disponibile un file SQL), e andare a modificare le proprie credenziali nella classe "MyConnection" --> con = DriverManager.getConnection("jdbc:mysql://localhost/testchat", "**Username**", "**password**");
+Noi abbiamo utilizzato "MySQL workbench".
 
 ### 1-LOGIN/SIGN UP
 Un utente non registrato può registarsi andando ad inserire un UserName univoco. In automatico riceverai una **chiave privata** da non perdere e mantenere segreta, questa sarà necessaria per decifrare i messaggi che si riceveranno.

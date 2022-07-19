@@ -2,6 +2,7 @@
 Questo è un progetto sviluppato da Maniero Martino e Bergantin Alessandro per il corso di "Ingegneria del Software avanzata" dell'università di Ferrara.
 Il progetto consiste in un sistema di messaggistica stile mail-box, nel quale ogni iscritto può scambiare messaggi cifrati con algoritmo RSA da noi implementato.
 I messaggi verranno visualizzati nelle apposite sezioni in maniera cifrata e si potrà leggere il contenuto in chiaro solamente inserendo la propria chiave privata che è stata ricevuta al momento della registrazione utente.
+LINK A DOCKER HUB: https://hub.docker.com/repository/docker/marmann/progettoisa
 
 **ATTENZIONE: codice di codifica ASCII! -> non sono accettate le lettere composte (es: à, ò, è, ù ..) -> per fare le lettere accentate: e'**
 
